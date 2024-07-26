@@ -23,8 +23,8 @@ CREATE TABLE IF NOT EXISTS Authors (
 -- Create the customers table
 CREATE TABLE IF NOT EXISTS Customers (
     customer_id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
-    email VARCHAR(255) NOT NULL UNIQUE,
+    customer_name VARCHAR(215) NOT NULL,
+    email VARCHAR(215) NOT NULL UNIQUE,
     phone VARCHAR(20),
     address TEXT
 );
